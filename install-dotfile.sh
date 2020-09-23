@@ -16,11 +16,6 @@ chmod +x install-node.sh
 sudo npm install -g js-beautify
 
 echo ""
-echo " *** Install python-autopep8"
-echo ""
-sudo apt install -y python-autopep8
-
-echo ""
 echo " *** Install astyle"
 echo ""
 sudo apt install -y astyle

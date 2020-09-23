@@ -6,16 +6,13 @@ sudo apt install -y curl build-essential openssl libssl-dev python
 echo " *** Installing Node  "
 echo ""
 
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt install -y nodejs
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+source ~/.bashrc
+source ~/.profile
+nvm install --lts
 
 echo " *** Node Installed "
 node -v
-
-echo " *** Installing NPM "
-echo ""
-
-curl -L https://npmjs.org/install.sh | sudo sh
 
 echo " *** NPM Installed"
 npm -v
