@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/df/ws/src/turtlebot3_simulations/turtlebot3_fake/src'
+let g:netrw_dirhist_9='/home/df/ws/src/turtlebot3_simulations/turtlebot3_fake'
+let g:netrw_dirhist_8='/home/df/ws/src/turtlebot3_simulations'
+let g:netrw_dirhist_7='/home/df/ws/src'
+let g:netrw_dirhist_6='/home/df/ws/src/test_pkg'
+let g:netrw_dirhist_5='/home/df/ws/src/test_pkg/src'
+let g:netrw_dirhist_4='/home/df/ws/src/test_pkg'
+let g:netrw_dirhist_3='/home/df/ws/src/test_pkg/src'
+let g:netrw_dirhist_2='/home/df/ws/src/test_pkg'
+let g:netrw_dirhist_1='/home/df/ws/src'
