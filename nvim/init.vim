@@ -1,4 +1,35 @@
 set nocompatible
+filetype plugin indent on
+
+set history=500
+
+set autoread
+au FocusGained,BufEnter * checktime
+
+set path+=**
+
+set wildmenu
+set ruler
+set hid
+
+set whichwrap+=<,>,h,l
+
+set smartcase
+set incsearch
+set lazyredraw
+set showmatch
+set noerrorbells
+set novisualbell
+set t_vb=
+set tm=500
+set nowb
+set noswapfile
+set lbr
+set tw=500
+set smartindent
+set splitbelow
+set splitright
+
 set number
 syntax enable
 set fileencodings=utf-8,sjis,euc-jp,latin
@@ -19,14 +50,15 @@ set smarttab
 set softtabstop=4
 set mouse=a
 set ignorecase
-filetype plugin indent on
 set ai
 set si
-set nowrap
+set wrap
 set backspace=start,eol,indent
 
 set cursorline
-"set cursorcolumn
+
+set wildmode=longest, list
+set wildignore=*.o,*.class,*.swp,*.swo,*.pyc
 
 " Set cursor line color on visual mode
 highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
