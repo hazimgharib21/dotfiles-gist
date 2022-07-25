@@ -1,9 +1,10 @@
-#sudo add-apt-repository ppa:neovim-ppa/unstable
-#sudo apt-get update
-#sudo apt-get install neovim
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt -y update
+sudo apt -y install neovim
+sudo apt -y install curl
 
-#sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-#       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 curl -LO https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep_13.0.0_amd64.deb
 sudo dpkg -i ripgrep_13.0.0_amd64.deb

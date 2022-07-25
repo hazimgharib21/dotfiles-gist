@@ -8,7 +8,6 @@ au FocusGained,BufEnter * checktime
 
 set path+=**
 
-set wildmenu
 set ruler
 set hid
 
@@ -56,9 +55,6 @@ set wrap
 set backspace=start,eol,indent
 
 set cursorline
-
-set wildmode=longest, list
-set wildignore=*.o,*.class,*.swp,*.swo,*.pyc
 
 " Set cursor line color on visual mode
 highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
