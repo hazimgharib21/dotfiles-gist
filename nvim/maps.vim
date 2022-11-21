@@ -1,7 +1,5 @@
 let mapleader = ","
 
-nmap <leader>w :w!<CR>
-
 " Windows navigation
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
